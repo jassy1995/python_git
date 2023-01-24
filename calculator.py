@@ -8,9 +8,12 @@ def mul(a,b):
     return a*b
 
 
-a = int(input())
-b = int(input())
+
+def mod(a,b):
+    return a%b
+c,d = 7,8
+a,b = 5,6
 print(add(a,b))
 print(sub(a,b))
 print(mul(a,b))
-
+print(mod(a,b))

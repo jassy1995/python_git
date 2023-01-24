@@ -7,7 +7,10 @@ def sub(a,b):
 def mul(a,b):
     return a*b
 
-a,b = 5,6
+
+a = int(input())
+b = int(input())
 print(add(a,b))
 print(sub(a,b))
 print(mul(a,b))
+
